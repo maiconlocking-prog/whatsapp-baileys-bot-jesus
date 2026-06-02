@@ -70,7 +70,7 @@ async function startBot() {
         if (!sock.authState.creds.registered && update.connection === 'connecting') {
             try {
                 console.log("📲 Modo Pairing Code ativado.");
-                const phoneNumber = '5511999999999'; // ← MUDA PRO TEU NÚMERO
+                const phoneNumber = '5518996931637'; // ← MUDA PRO TEU NÚMERO
                 const code = await sock.requestPairingCode(phoneNumber);
                 console.log("🔑 SEU CÓDIGO DE PAIRING:");
                 console.log(`\x1b[32m${code}\x1b[0m`);
