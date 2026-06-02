@@ -1,0 +1,15 @@
+{
+  "name": "whatsapp-baileys-bot-jesus",
+  "version": "1.0.0",
+  "description": "Bot WhatsApp completo usando Baileys - Jesus Edition",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "@whiskeysockets/baileys": "latest",
+    "pino": "latest",
+    "qrcode-terminal": "latest"
+  }
+}
